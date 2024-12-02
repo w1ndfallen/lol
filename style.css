@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+    src: url('fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url('fonts/DMSans-Regular.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'Bree Serif';
+    src: url('fonts/BreeSerif-Regular.otf') format('opentype');
+}
+body{
+    font-family: 'DM Sans';
+    color:#02073E;
+}
+.container{
+    padding-top:25px;
+    width: 1400px;
+    margin:auto;
+}
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-nav ul{
+    list-style-type: none;
+    margin-left: 700px;
+}
+.header-nav ul li{  
+    display: inline;
+    margin-left: 40px;
+}
+.header-nav ul li a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 33px;
+    color: #0F2137;
+    text-decoration: none;
+}
+.header-nav-btn ul li{
+    display: inline;
+    margin-left: 5px;
+}
+.header-nav-btn ul li a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 33px;
+    color: #F94962;
+    text-decoration: none;
+}
+.header-nav-btn-under{
+    position: absolute;
+    width: 82px;
+    height: 6px;
+    left: 1520px;   
+    top: 80px;
+}
+.header-logo img{
+    height: 37px;
+    width: auto;
+    margin-right: 14px;
+}
+.header-logo p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0F2137;
+}
+.header-content{
+    font-size: 28px;
+    margin-top: 155px;
+    max-width: 585px;
+}
+.header-content h1{
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.header-text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    max-width: 505px;
+}
+.header-form{
+    margin: 10px 0px;
+}
+.header-form input{
+    padding: 5px 20px;
+    padding-right: 110px;
+    background: #FFFFFF;
+    border: 1px solid #D4DAE2;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 40px;
+    opacity: 0.4;
+}
+.header-form button{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    padding: 5px 23px;
+    margin: 5px;
+    background-color: #F94962;
+    border-radius: 5px;
+    border: 0px;
+}
+.sponsored-by{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sponsored-by{
+    font-size: 16px;
+    line-height: 42px;
+    color: #566272;
+    opacity: 0.6;
+}
+.sponsored-by img{
+    margin-left: 25px;
+    height: 30  px;
+    width: auto;
+}
+.header-img1{
+    position: absolute;
+    width: 740px;
+    height: 740px;
+    left: 930px;
+    top: 160px;
+}
+.pattern{
+    position: absolute;
+    width: 740px;
+    height: 740px;
+    left: 1015px;
+    top: 195px;
+}
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+ }
+ #features h3{
+     font-family: 'Bree Serif';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30px;
+     line-height: 0px;
+     text-align: center; 
+     margin-top: 175px;
+     margin-bottom: 20px;
+     letter-spacing: -0.5px;
+     color: #0F2137;
+ }
+ .bottom-text{
+     width: 580px;
+     font-size: 16px;
+     line-height: 35px;
+     text-align: center;
+     color: #0F2137;
+ }
+ .features-container{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-top: 50px;
+ }
+ .feature-item-title{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     font-family: 'dm-sans';
+     font-weight: bold;
+     margin-left:65px;
+     color:#02073E;
+ }
+ .feature-item-text{
+     margin-left:65px;
+     width:334px;
+ }
