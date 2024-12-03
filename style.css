@@ -164,43 +164,77 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center; 
- }
- #features h3{
-     font-family: 'Bree Serif';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 30px;
-     line-height: 0px;
-     text-align: center; 
-     margin-top: 175px;
-     margin-bottom: 20px;
-     letter-spacing: -0.5px;
-     color: #0F2137;
- }
- .bottom-text{
-     width: 580px;
-     font-size: 16px;
-     line-height: 35px;
-     text-align: center;
-     color: #0F2137;
- }
- .features-container{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     margin-top: 50px;
- }
- .feature-item-title{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-items: center;
-     font-family: 'dm-sans';
-     font-weight: bold;
-     margin-left:65px;
-     color:#02073E;
- }
- .feature-item-text{
-     margin-left:65px;
-     width:334px;
- }
+}
+#features h3{
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center; 
+    margin-top: 175px;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+}
+.bottom-text{
+    width: 580px;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #0F2137;
+}
+.features-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.feature-item-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'dm-sans';
+    font-weight: bold;
+    margin-left:65px;
+    color:#02073E;
+}
+.feature-item-text{
+    margin-left:65px;
+    width:334px;
+}
+#boost h2{
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+    max-width: 450px;
+    color: #0F2137;
+}
+.boost-description{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 42px;
+    max-width: 450px;
+    color: #02073E;
+}
+.boost-possibilities{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    color: #02073E;
+}
+.boost-possibilities img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 70px;
+    top: 1742px;
+}
