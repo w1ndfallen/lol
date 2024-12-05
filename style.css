@@ -41,6 +41,14 @@ body{
     min-height: 100px; 
     margin-top: 150px;  
 }
+#footer{
+    background-color: #F9FAFC;
+    margin: 0;
+    padding: 0;
+    min-width: 1920px; 
+    width: 100%; 
+    min-height: 100px; 
+}
 .container{
     padding-top:25px;
     width: 1400px;
@@ -460,29 +468,97 @@ h2{
 .support-banner{
     margin-left: 70px;
 }
-.footer-menu{
+.footer {
+    padding: 2rem;
+}
+.footer-content {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-left {
+    max-width: 25%;
+}
+.logo {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
+    padding-top: 2rem;
+    margin-left: 50px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #02073E;
 }
-.footer-menu-item{
-    margin: 20px;
+.logo img {
+    height: 37px;
+    width: auto;
+    margin-right: 5px;
 }
-.footer-menu h4{
-    font-family: 'dm-sans-medium';
-    line-height: 30px;
+.logo span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3b3b3b;
 }
-.footer-menu ul{
-    list-style-type: none;
-    padding-left: 0px;
+.footer-links {
+    margin-top: 1rem;
+    padding-left: 2.7rem;
 }
-.footer-menu ul li a{
-    font-size: 14;
-    opacity: 80%;
-    line-height: 250%;
+.footer-links a {
     text-decoration: none;
     color: #02073E;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+}
+.footer-links span {
+    color: #02073E;
+}
+.footer-left p {
+    margin-top: 1.2rem;
+    padding-left: 3.2rem;
+    font-size: 14px;
+    color: #0F2137;
+    opacity: 0.6;
+}
+.footer-right {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.footer-column {
+    min-width: 150px;
+}
+.footer-column h3 {
+    font-family: 'dm-sans-medium';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+    margin-bottom: 40px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column li {
+    margin-bottom: 0.5rem;
+    line-height: 200%;
+}
+.footer-column a {
+    text-decoration: none;
+    color: #555;
+} 
+.footer-column a:hover {
+    color: #007bff;
+}
+.footer-column h3{
+    margin-right: 100px;
 }
 .footer-item{
     width:75%;
@@ -491,10 +567,6 @@ h2{
     align-items: center;
 }
 .footer-item img{
-    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-right: 15px;
 }
-@media only screen and (max-width: 1400px) {
-    .header-nav-btn-under {
-      margin-left: 100px;
-    }
-  }
